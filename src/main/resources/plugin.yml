@@ -1,0 +1,10 @@
+name: APITest
+version: '${version}'
+main: ru.goldfinch.apitest.APITest
+api-version: 1.18
+depend: [Atlas]
+commands:
+    hello:
+        usage: /hello
+    food:
+        usage: /food
